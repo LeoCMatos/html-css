@@ -2,7 +2,7 @@
  Exercicio e desafios do Curso de HTML5 e css3 do curso em vídeo
 
 
-Links dos exercicios feitos em aula.
+<h1 style="color: red; font-size: 2em; text-aling: center;">Links dos exercicios feitos em aula.</h1>
 
 <a href="https://leocmatos.github.io/html-css/exercicios/ex001">Abrir o exercicio 001</a>
 <a href="https://leocmatos.github.io/html-css/exercicios/ex002">Abrir o exercicio 002</a>
