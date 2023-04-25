@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(39, 39, 39);
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+
+picture > div.thumb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+div.botaovoltar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

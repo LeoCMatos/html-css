@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/fotovertical.avif);
+    margin: 0px;
+
+}
+
+p{
+    align-text: justify;
+}
+
+nav{
+    background-color: rgb(122, 122, 122);
+    padding: 3px;
+   text-align: center;
+   box-shadow: 2px 2px 4px 1px rgb(0, 0, 0);
+}
+
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+header > h1{
+    text-align: center;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+article{
+    background-color: lightgray;
+    margin: 10px;
+}
+
+article > p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+article > aside{
+    background-color: rgb(179, 179, 179);
+    font-size: 0.5em;
+    color: white;
+}
+
+article > aside > p{
+    text-align: right;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    margin: 0px;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+div#bola{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    
+}

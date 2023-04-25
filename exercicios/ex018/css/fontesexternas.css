@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: 'factually';
+    src: url('../fontes/FactuallyHandwriting_PERSONAL_USE_ONLY.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #F2AC57,#D95E32);
+}
+
+h1 {
+    font-family: 'factually', Times, serif;
+    font-size: 3em;
+    text-align: center;
+}
+
