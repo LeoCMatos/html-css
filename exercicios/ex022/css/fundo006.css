@@ -1,15 +1,25 @@
 body{
     height: 100vh;
+    /*
     background-color: #7FA0C8;
     background-image: url(../imagens/wallpaper002.jpg);
     background-repeat: no-repeat;
-    background-color: center top;
+    background-color: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+      Shorthand - background
+    
+    Color > Image > position > repeat > [size] > attachment
+    */
+
+    background: #7FA0C8 url('../imagens/wallpaper002.jpg') center center no-repeat fixed;
     background-size: cover;
 }
 
 main{
     background-color: white;
-    width: 400px;
+    max-width:700px;
     padding: 10px;
     margin: auto;
     border: 1px solid darkblue;
