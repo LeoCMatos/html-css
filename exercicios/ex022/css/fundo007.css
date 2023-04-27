@@ -1,0 +1,53 @@
+#container{
+    background-image: url('../imagens/target001.png');
+    background-size: 100% 100%;
+
+    
+    position: relative;
+    height: 500px;
+    padding: 10px;
+    background-color: purple;
+}
+
+#conteudo{ 
+    background-image: url('../imagens/target001.png');
+    background-size: 100% 100%;
+
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+
+    left: 75%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+#conteudo2{ 
+    background-image: url('../imagens/target001.png');
+    background-size: 100% 100%;
+
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+
+    left: 75%;
+    top: 25%;
+
+    transform: translate(-50%, -50%);
+}
+#conteudo3{ 
+    background-image: url('../imagens/target001.png');
+    background-size: 100% 100%;
+
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+
+    left: 75%;
+    top: 75%;
+
+    transform: translate(-50%, -50%);
+}
