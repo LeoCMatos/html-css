@@ -14,7 +14,20 @@
     <p>Esse é o meu primeiro documento HTML! Estou muito feliz!</p>
     <p>Este é um momento único estou criando um site!</p>
  
-    <embed src="https://leocmatos.github.io/html-css/exercicios/tabelas-de-exercicios/tabela.html" type="text/html"></embed>
+    <div id="conteudo"></div>
+
+    <script>
+        
+        fetch('../tabelas-de-exercicios/tabela.html')
+          .then(response => response.text())
+          .then(data => {
+            // Inserindo o conteúdo do arquivo HTML no elemento 'conteudo'
+            document.getElementById('conteudo').innerHTML = data;
+          })
+          .catch(error => {
+            console.log('Ocorreu um erro:', error);
+          });
+      </script>
 
 
 

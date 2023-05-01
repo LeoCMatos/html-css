@@ -1,12 +1,9 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    height: 100vh;
     width: 100%;
-    color: red;
-    background-color: red;
 }
 
 table{
@@ -31,7 +28,3 @@ td{
     padding: 10px;
     text-align: center;
 }
-
-
-
-

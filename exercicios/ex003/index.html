@@ -14,5 +14,20 @@
     <img src="../img/logohtml-200.png" alt="Logo css3">
     <p>da para pegar também de outros sites.</p>
     <img src="https://freesvg.org/img/js_logo.png" alt="">
+
+    <div id="conteudo"></div>
+
+    <script>
+        
+        fetch('../tabelas-de-exercicios/tabela.html')
+          .then(response => response.text())
+          .then(data => {
+            // Inserindo o conteúdo do arquivo HTML no elemento 'conteudo'
+            document.getElementById('conteudo').innerHTML = data;
+          })
+          .catch(error => {
+            console.log('Ocorreu um erro:', error);
+          });
+      </script>
 </body>
 </html>
