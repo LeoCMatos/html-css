@@ -1,3 +1,9 @@
+body{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
 div{
     display: inline-block;
     background-color: lightgray;
