@@ -2,12 +2,23 @@ body{
     background-color: lightgray
 }
 
-#conteudo{
-    background-color: white;
-    border: 1px solid black;
-    box-shadow: 10px 10px 10px black;
-    margin-left: 10px;
+.tela{
+ display: flex;
+    width: 100vh;
 }
+
+#conteudo{
+    min-width: 500px;
+    position: relative;
+    top: 0%;
+    left: 50%;
+}
+
+#navegacao{
+
+}
+
+
 
 
 
